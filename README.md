@@ -1,7 +1,7 @@
 # Django Style Guide
 Guidelines to write an awesome Django project!
 
-# URLs
+## URLs
 
 URLs names for simple `models` should follow this format:
 
@@ -14,7 +14,7 @@ Default actions are:
  * `delete`: to change a model's object
  * `view`: to view a model's object information
 
-# Permissions
+## Permissions
 
 Permissions should follow this format:
 
@@ -44,7 +44,7 @@ class Foo(models.Model):
 ```
 
 
-# Models
+## Models
 
 All models should have a `Meta` class, and at least 
 those fields should be defined (in this order) on the Meta 
